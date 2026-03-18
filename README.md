@@ -26,6 +26,22 @@ A modern, responsive website redesign concept featuring:
 - Vanilla JavaScript (ES6+)
 - Google Fonts (Inter)
 
+## ▶️ Run Locally
+
+This is a static site (no build step).
+
+### Option A: Simple local server (recommended)
+
+```bash
+python3 -m http.server 8080
+```
+
+Then open `http://localhost:8080` and click around from `index.html`.
+
+### Option B: Open the file directly
+
+You can open `index.html` in your browser, but some relative paths/features may behave differently vs serving over HTTP.
+
 ## 📄 License
 
 MIT License
@@ -61,4 +77,6 @@ Varden Gym is a real fitness center located at:
 ---
 
 **Note**: This is a design concept only. All trademarks and business names are property of their respective owners.
+
+
 
